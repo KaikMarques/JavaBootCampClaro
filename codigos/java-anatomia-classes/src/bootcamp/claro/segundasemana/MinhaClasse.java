@@ -1,4 +1,4 @@
-package bootcamp.claro.primeirasemana;
+package bootcamp.claro.segundasemana;
 public class MinhaClasse {
 
     public static void main (String [] args) {
