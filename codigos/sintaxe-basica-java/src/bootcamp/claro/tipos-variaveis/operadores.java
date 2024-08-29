@@ -154,7 +154,25 @@ public class operadores {
     }
 
     public static void operadorLogico (String [] args) {
-        
+        // Operadores lógicos 
+        // & = "E"
+        // || = "Ou"
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if(condicao1 && condicao2) { // se condicao1 e condicao2 são verdadeiras
+            System.out.println("As duas condições são verdadeiras");
+        }
+        if(condicao1 && (7 > 4)) {
+            System.out.println("As duas condições também são verdadeiras e 7 é maior que 4");
+        }
+
+        if(condicao1 || condicao2) {
+            System.out.println("Uma das condições é verdadeira");
+        }
+
+        System.out.println("Fim");
     }
 
 }
