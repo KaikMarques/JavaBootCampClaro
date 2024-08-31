@@ -1,34 +1,36 @@
-
-
 public class Usuario {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
+    // Preciso fazer a instancia da minha classe para eu poder usa-la em usuario
+    SmartTv smartTv = new SmartTv();
 
-        // esta é a forma de criar uma nova classe para ilustrar a interação dos métodos e atributos
-        SmartTv smartTv = new SmartTv(); 
+    /* Definindo o que eu quero com esta classe
+     *  1. Quero primeiro ligar a TV
+     *  2. Depois, quero aumentar o volume
+     *  3. Depois, quero mudar de canal
+     *  4. E por fim, quero definir qual canal eu quero ir
+     */            
 
-        smartTv.diminuirVolume();
-        smartTv.diminuirVolume();
-        smartTv.diminuirVolume();
-        smartTv.aumentarVolume();
+     System.out.println("......SmartTV......");
 
-        System.out.println("Canal Atual..: " + smartTv.canal);
+     smartTv.ligar();
+     System.out.println("Televisão ligada: " + smartTv.ligada); // passei o atributo porque quero saber o status do atriburo com a chamada do método
 
-        smartTv.mudarCanal(13);
-        
-        System.out.println("Canal Atual..: " + smartTv.canal);
+    smartTv.aumentarVolume();
+    System.out.println("Volume da televisão aumentado para: " + smartTv.volume);
+    
+    smartTv.restaurarVolumeDefault();
+    System.out.println("Restaurado volume padrão da tv: " + smartTv.volume);
 
-        System.out.println("Volume atual : " + smartTv.volume);
+    smartTv.aumentarVolume();
+    System.out.println("Volume da televisão aumentado para: " + smartTv.volume);
 
-        // Fazendo a chamada dos atributos/variaveis que criei na minha classe smartTv
-        System.out.println("TV Ligada....? " + smartTv.ligada);
+    smartTv.mudarCanal();
+    System.out.println("Canal alterado para: " + smartTv.canal);
 
-        System.out.println("Volume Atual : " + smartTv.volume);
+    smartTv.mudarCanal(12);
+    System.out.println("Digitei que minha tv vai para o canal: " + smartTv.canal);
 
-        smartTv.ligar();
-        System.out.println("Novo status -> TV Ligada? " + smartTv.ligada);
-        
-        smartTv.desligar();
-        System.out.println("Novo status -> TV Ligada? " + smartTv.ligada);
-        
+
     }
+
 }

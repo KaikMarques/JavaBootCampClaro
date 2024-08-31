@@ -12,4 +12,5 @@ Vamos criar um exemplo de uma classe para representar uam SmartTv onde:
 
 > 4. Nossa TV poderá mudar de canal de 1 em 1 ou definindo o número correspondente  
 
+Obs: Uma classe vai ter os métodos e outra classe para executar as ações
 
