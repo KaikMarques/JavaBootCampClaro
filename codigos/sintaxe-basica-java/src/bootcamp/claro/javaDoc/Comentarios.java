@@ -8,7 +8,6 @@ public class Comentarios {
     public static void main(String[] args) {
         
     }
-
     // Má prática
     public int somaMultiplica (int n, int x, String m){
         int r = 0; // r de resultado
