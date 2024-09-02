@@ -1,0 +1,1 @@
+tagSearchIndex = [{"l":"Calculadora","h":"class bootcamp.claro.javaDoc.Calculadora","d":"Section","u":"bootcamp/claro/javaDoc/Calculadora.html#calculadora-heading"}];updateSearchResults();
