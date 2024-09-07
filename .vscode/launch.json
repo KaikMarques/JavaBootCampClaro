@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMeNew",
+            "request": "launch",
+            "mainClass": "AboutMeNew",
+            "projectName": "JavaBootCampClaro_243a8bb9"
+        },
+        {
+            "type": "java",
+            "name": "BoletimEstudantil",
+            "request": "launch",
+            "mainClass": "BoletimEstudantil",
+            "projectName": "JavaBootCampClaro_243a8bb9"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar",
             "request": "launch",
             "mainClass": "ResultadoEscolar",
