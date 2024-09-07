@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorCepExemplo",
+            "request": "launch",
+            "mainClass": "FormatadorCepExemplo",
+            "projectName": "JavaBootCampClaro_243a8bb9"
+        },
+        {
+            "type": "java",
+            "name": "ExemploExcecao",
+            "request": "launch",
+            "mainClass": "ExemploExcecao",
+            "projectName": "JavaBootCampClaro_243a8bb9"
+        },
+        {
+            "type": "java",
             "name": "AboutMeNew",
             "request": "launch",
             "mainClass": "AboutMeNew",
