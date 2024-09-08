@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Contador",
+            "request": "launch",
+            "mainClass": "Contador",
+            "projectName": "JavaBootCampClaro_243a8bb9"
+        },
+        {
+            "type": "java",
             "name": "FormatadorCepExemplo",
             "request": "launch",
             "mainClass": "FormatadorCepExemplo",
