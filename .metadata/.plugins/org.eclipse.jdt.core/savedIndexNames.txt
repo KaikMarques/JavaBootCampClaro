@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\kaikm\OneDrive\Documentos\GitHub\Java\DIO Bootcamp\JavaBootCampClaro\.metadata\.plugins\org.eclipse.jdt.core
+1247220802.index
+1865797976.index
+3268811662.index

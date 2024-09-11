@@ -1,0 +1,29 @@
+package lanchonete;
+
+public class Estabelecimento {
+	public static void main(String[] args) {
+		
+		Cozinheiro cozinheiro = new Cozinheiro();
+		// Ações que não precisam estarem disponíveis para toda aplicação
+		cozinheiro.lavarIngredientes();
+		cozinheiro.baterVitaminaLiquidificador();
+		cozinheiro.selecionarIngredientesVitamina();
+		cozinheiro.prepararlanche();
+		cozinheiro.prepararVitamina();
+		cozinheiro.prepararVitamina();
+		
+		// Ações que estabelecimento precisa ter ciência
+		cozinheiro.adicionarSucoNoBalcao();
+		cozinheiro.adicionarLancheNoBalcao();
+		cozinheiro.adicionarComboNoBalcao();
+		
+		Almoxarife almoxarife = new Almoxarife();
+		// Ações que não precisam estar disponivel para toda aplicação
+		almoxarife.controlarEntrada();
+		almoxarife.controlarSaida();
+		// Ação que somente o seu pacote cozinha precisa conhecer (default)
+		almoxarife.entregarIngredientes();
+		almoxarife.trocarGas();
+		
+	}	
+}

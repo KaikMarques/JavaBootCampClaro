@@ -1,0 +1,35 @@
+package candidatura;
+
+import java.util.Scanner;
+
+public class ProcessoSeletivo2 {
+	
+	// CASE 2
+	
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Processo Seletivo ");
+		
+		for (int i = 1; i <=3; i++) {
+			System.out.println("Digite o salário pretendido pelo candidato: " + i + ": ");
+			double salarioPretendido = scanner.nextDouble();
+			analisarCandidato(salarioPretendido);
+		}
+		scanner.close();
+
+		
+	}
+	
+
+	static void analisarCandidato(double salarioPretendido) {
+		double salarioBase = 2000.0;
+		if(salarioBase > salarioPretendido) {
+			System.out.println("LIGAR PARA CANDIDATO");
+		}else if(salarioBase == salarioPretendido) {
+			System.out.print("LIGAR PARA O CANDIDATO COM CONTRA PROPOSTA");
+		} else
+			System.out.println("AGUARDANDO RESULTADO DOS DEMAIS CANDIDATOS");
+	}
+
+}

@@ -1,0 +1,9 @@
+package lanchonete;
+
+public class Almoxarife {
+	public void controlarEntrada() {
+		System.out.println("Controlando a entrada dos itens");
+	}
+		
+
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"codigos/sintaxe-basica-java/src/bootcamp/claro/tipos-variaveis"
+		],
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

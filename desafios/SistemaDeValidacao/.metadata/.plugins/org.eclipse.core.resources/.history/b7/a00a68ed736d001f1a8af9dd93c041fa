@@ -1,0 +1,41 @@
+package candidatura;
+
+import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
+
+public class ProcessoSeletivo2 {
+	
+	// CASE 2
+	
+	public static void main(String[] args) {
+		
+	}
+	static void selecaoCandidatos() {
+		String [] candidatos = {"FELIPE","MARCIA","JULIA","AUGUSTO","MONICA","FABRICIO","MIRELA","DANIELA","JORGE","SILAS","CRIS","JHON","ROMILDO","SILDINHO","VANIA"};
+		
+		int candidatosSelecionados = 0;
+		int candidatosAtual  = 0;
+		double salarioBase = 2000.0;
+		while(candidatosSelecionados < 5 && candidatosAtual < candidatos.length) {
+			String candidato = candidatos[candidatosAtual];
+			double salarioPretendido = valorPretendido();
+		}
+		
+		
+	}
+	
+	static double valorPretendido() {
+		return ThreadLocalRandom.current().nextDouble(1800, 2000); // Método que gera valor aleatório com base no parâmetro
+	}
+
+	static void analisarCandidato(double salarioPretendido) {
+		double salarioBase = 2000.0;
+		if(salarioBase > salarioPretendido) {
+			System.out.println("LIGAR PARA CANDIDATO");
+		}else if(salarioBase == salarioPretendido) {
+			System.out.print("LIGAR PARA O CANDIDATO COM CONTRA PROPOSTA");
+		} else
+			System.out.println("AGUARDANDO RESULTADO DOS DEMAIS CANDIDATOS");
+	}
+
+}
