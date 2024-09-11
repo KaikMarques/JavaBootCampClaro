@@ -1,57 +1,29 @@
 package lanchonete;
 
+import lanchonete.area.cliente.Cliente;
+import lanchonete.atendimento.Atendente;
+import lanchonete.atendimento.cozinha.Almoxarife;
+import lanchonete.atendimento.cozinha.Cozinheiro;
+
 public class Estabelecimento {
 	public static void main(String[] args) {
 		
 		Cozinheiro cozinheiro = new Cozinheiro();
-		// Ações que não precisam estarem disponíveis para toda aplicação
-		cozinheiro.lavarIngredientes();
-		cozinheiro.baterVitaminaLiquidificador();
-		cozinheiro.selecionarIngredientesVitamina();
-		cozinheiro.prepararlanche();
-		cozinheiro.prepararVitamina();
-		cozinheiro.prepararVitamina();
-		
+
 		// Ações que estabelecimento precisa ter ciência
 		cozinheiro.adicionarSucoNoBalcao();
 		cozinheiro.adicionarLancheNoBalcao();
 		cozinheiro.adicionarComboNoBalcao();
 		
-		Almoxarife almoxarife = new Almoxarife();
-		// Ações que não precisam estar disponivel para toda aplicação
-		almoxarife.controlarEntrada();
-		almoxarife.controlarSaida();
-		// Ação que somente o seu pacote cozinha precisa conhecer (default)
-		almoxarife.entregarIngredientes();
-		almoxarife.trocarGas();
 		
 		Atendente atendente = new Atendente();
-		atendente.pegarLancheCozinha();
-		atendente.receberPagamento();
 		atendente.servindoMesa();
-		// Ação que somente o pacote cozinha precisa conhecer (default)
-		atendente.trocarGas();
+		atendente.receberPagamento();
 		
 		Cliente cliente = new Cliente();
 		cliente.escolherLanche();
 		cliente.fazerPedido();
 		cliente.pagarConta();
-		
-		// Não deveria, más o estabeleciomento ainda não definiu normas de atendimento
-		cliente.pegarBebidaBalcao();
-		
-		// Esta ação é muito sigilosa, que tal ser privada?
-		cliente.consultarSaldoAplicativo();
-		
-		// já pensou os clientes ouvindo que o gás acabou
-		cozinheiro.pedirParaTrocarGas(atendente);
-		cozinheiro.pedirParaTrocarGas(almoxarife);
-		
-		
-		parei em 12:40
-		
-		
-		
 		
 	}	
 }
