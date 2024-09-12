@@ -1,4 +1,4 @@
-package escola;
+package poo.getter.setters.escola;
 
 public class Aluno {
 	private String nome;

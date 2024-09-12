@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaCadastro",
+            "request": "launch",
+            "mainClass": "SistemaCadastro",
+            "projectName": "Construtores"
+        },
+        {
+            "type": "java",
             "name": "VerificacaoServico",
             "request": "launch",
             "mainClass": "VerificacaoServico",
