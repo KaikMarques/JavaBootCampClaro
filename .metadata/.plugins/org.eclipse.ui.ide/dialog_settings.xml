@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item key="OUTSIDE_LOCATION" value="C:\Users\kaikm\OneDrive\Documentos\GitHub\Java\DIO Bootcamp\JavaBootCampClaro\codigos\poo-java"/>
+		<item key="OUTSIDE_LOCATION" value="C:\Users\kaikm\OneDrive\Documentos\GitHub\Java\DIO Bootcamp\JavaBootCampClaro\codigos\poo-java\visibilidadePacotes"/>
 	</section>
 	<section name="SaveAsDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="429"/>
@@ -15,6 +15,9 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\kaikm\OneDrive\Documentos\GitHub\Java\DIO Bootcamp\JavaBootCampClaro\codigos\poo-java\visibilidadePacotes"/>
+		</list>
 		<section name="SmartImportWizard.dialogBounds">
 			<item key="DIALOG_X_ORIGIN" value="249"/>
 			<item key="DIALOG_Y_ORIGIN" value="8"/>
