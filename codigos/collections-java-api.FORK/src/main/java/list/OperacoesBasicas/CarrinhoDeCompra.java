@@ -17,7 +17,6 @@ public class CarrinhoDeCompra {
         this.itemList.add(item);
     }
 
-
     // Tarefa 2 - removerItem(String nome)
     // Método para remover um item do carrinho com base no nome do item
     public void removerItem(String nome) {
@@ -43,9 +42,4 @@ public class CarrinhoDeCompra {
             System.out.println("A lista está vazia!");
         }
     }
-
-
-
-
-
 }
